@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import HomePage from "./components/HomePage";
+import Dashboard from "../Dashboard";
 
 function App() {
-  return <HomePage />;
+  return <Dashboard />;
 }
 export default App;
