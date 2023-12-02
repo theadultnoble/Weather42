@@ -7,9 +7,9 @@ import WeatherCards from "./src/components/WeatherCards";
 
 function Dashboard() {
   return (
-    <>
+    <div className="max-h-screen bg-zinc-900 p-3">
       <NavBar />
-    </>
+    </div>
   );
 }
 
